@@ -1,0 +1,20 @@
+{
+  "model_name": "LightGBM SGCC customer-level electricity-theft research model",
+  "feature_count": 66,
+  "raw_date_column_count": 1034,
+  "fixed_excluded_date": "10/3/2014",
+  "nested_cv_median_threshold": 0.560202,
+  "bundle_exploratory_oof_threshold": 0.6111861670351327,
+  "nested_cv_summary": {
+    "F1_mean": 0.4304,
+    "F1_sd": 0.0058,
+    "PR_AUC_mean": 0.4344,
+    "PR_AUC_sd": 0.0169,
+    "ROC_AUC_mean": 0.8279,
+    "ROC_AUC_sd": 0.0049,
+    "precision_mean": 0.3844,
+    "recall_mean": 0.4905,
+    "specificity_mean": 0.9265
+  },
+  "warning": "SGCC customer-level electricity-theft labels; not validated for prepaid transaction fraud or Nigerian operations. Research prototype only."
+}

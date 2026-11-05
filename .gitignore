@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+electricity_anomaly.db
+*.db
+.DS_Store
